@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="aboutMe.js"></script>
+</head>
+<body class="bg-[url('./images/b.jpeg')] bg-cover">
+    <div class="flex justify-start gap-4">
+        <aside class="mx-[5px] mt-[100px] rounded-lg ring-2 ring-pink-500 h-[450px] w-[65px] bg-[url('./images/aboutMeSidebar.jpeg')] bg-cover hover:w-[150px] transition-all duration-300 flex flex-col  gap-4 group">
+                <button class="mt-[30px] flex items-center justify-start gap-2 w-[65px] mx-[2px] my-[5px] group-hover:w-[140px] hover:rounded-full hover:border-2 hover:border-white hover:bg-yellow-500 transition-all duration-300" onclick="window.open('https://github.com/Palyam72','_blank')">
+                    <img class="w-[55px] h-[56px]" src="./images/github.png" alt="github-icon">
+                    <p class="hidden group-hover:block text-white text-[12px] font-bold">GitHub</p>
+                </button>
+                <button class="flex items-center justify-start gap-2 w-[65px] mx-[2px] my-[5px] group-hover:w-[140px] hover:rounded-full hover:border-2 hover:border-white hover:bg-green-500 transition-all duration-300" onclick="window.open('https://leetcode.com/u/PalyamRohith26/')">
+                    <img class="w-[55px] h-[56px]" src="./images/Leetcode.png" alt="whatsapp-icon">
+                    <p class="hidden group-hover:block text-white text-[12px] font-bold">LeetCode</p>
+                </button>
+                <button class="flex items-center justify-start gap-2 w-[65px] mx-[2px] my-[5px] group-hover:w-[140px] hover:rounded-full hover:border-2 hover:border-white hover:bg-blue-500 transition-all duration-300">
+                    <a href="mailto:rohithpalyam17@gmail.com?subject=I%20wanted%20to%20give%20a%20chance%20for%20interview%20and%20i%20want%20to%20hire%20you" class="flex items-center gap-2">
+                        <img class="w-[55px] h-[56px]" src="./images/Gmail.jpeg" alt="gmail-icon">
+                        <p class="hidden group-hover:block text-white text-[12px] font-bold">GMail</p>
+                    </a>
+                </button>                
+                <button class="flex items-center justify-start gap-2 w-[65px] mx-[2px] my-[5px] group-hover:w-[140px] hover:rounded-full hover:border-2 hover:border-white hover:bg-blue-700 transition-all duration-300" onclick="window.open('https://www.linkedin.com/in/rohith-palyam-8a002429b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app','_blank')">
+                    <img class="w-[55px] h-[56px]" src="./images/linkedin.png" alt="linkedin-icon">
+                    <p class="hidden group-hover:block text-white text-[12px] font-bold">LinkedIn</p>
+                </button>
+                <button class="flex items-center justify-start gap-2 w-[65px] mx-[2px] my-[5px] group-hover:w-[140px] hover:rounded-full hover:border-2 hover:border-white hover:bg-red-600 transition-all duration-300" onclick="window.open('https://www.quora.com/profile/Rohith-Palyam-4?ch=10&oid=2559618090&share=9c03bc26&srid=3IkAS0&target_type=user','_blank')">
+                    <img class="w-[55px] h-[56px]" src="./images/quora.png" alt="quora-icon">
+                    <p class="hidden group-hover:block text-white text-[12px] font-bold">Quora</p>
+                </button>
+        </aside>
+        <div class="h-[750px] w-dvw bg-black flex-1 mt-[15px] mb-[4px] rounded-lg border-white mr-[35px] flex flex-col justify-start overflow-y-auto">
+            <p class="font-bold italic subpixel-antialiased text-transparent bg-clip-text bg-cover bg-center bg-[url('./images/sidebar.jpeg')] text-2xl p-2 hover:text-yellow-500 transition-all duration-300 text-center">Primary Information</p>
+            <div class="border-pink-500 border-[1px] mt-[5px] rounded-b-lg"></div>
+            
+            <!-- Main Content Paragraph -->
+            <p class="text-white text-[20px] p-[14px]">
+                I am a driven and ambitious student, currently pursuing a Bachelor of Technology (B.Tech) in Artificial Intelligence. I am in the first semester of my final year and, with a strong academic foundation, have maintained an impressive CGPA of 9.07. My dedication to my studies reflects my passion for the field of AI, a domain that is rapidly transforming industries worldwide.
+            </p>
+            
+            <div class="border-pink-500 border-[1px] mt-[5px] rounded-lg"></div>
+        
+            <!-- Flexbox with Image Cards -->
+            <div class="flex justify-center gap-4 mt-[5px] mx-[15px] mt-[15px]">
+                <!-- Card 1 -->
+                <div id="hover-container" class="rounded-lg border-pink-500 border-2 flex flex-col flex-1 items-center">
+                    <img id="hover-image" class="w-[555px] h-[350px] mt-[5px] rounded-3xl ring ring-white" src="./images/family-enhanced.jpeg.jpeg" alt="card-1">
+                    <p class="text-white text-[20px] p-[14px]">
+                        Hailing from Chittoor, I was deeply influenced by the values instilled by my parents. My father, Sambaih, is a school teacher who has devoted his career to educating young minds, while my mother, Mohana Jyothi, is a homemaker whose constant support has been a pillar in my academic journey. Growing up in a household that values education and discipline, I have always been encouraged to strive for excellence in all areas of my life.
+                    </p>
+                </div>                
+        
+                <!-- Card 2 -->
+                <div class="rounded-lg border-pink-500 border-2 flex flex-col flex-1 items-center">
+                    <img class="w-[555px] h-[350px] mt-[5px] rounded-3xl ring ring-white" src="./images/studies-enhanced.jpeg" alt="card-2">
+                    <p class="text-white text-[20px] p-[14px]">
+                        As a student specializing in Artificial Intelligence, I have developed a keen interest in exploring innovative solutions to complex problems. My passion for learning the latest advancements in AI, from machine learning to neural networks, drives me to apply my knowledge to real-world challenges.
+                    </p>
+                </div>
+            </div>
+            <div class="rounded-lg ring ring-pink-500 mt-[15px] mx-[15px]">
+                <h1 class="font-bold text-2xl text-white text-center">In Short All About Me</h1>
+                <div class="border-pink-500 rounded-b-lg border-2"></div>
+                <p class="text-white text-xl p-9">Beyond academics, I am actively seeking opportunities to expand my skills and deepen my knowledge in the field of Artificial Intelligence. Whether through internships, research projects, or collaborative ventures, I am eager to engage in hands-on experiences that will allow me to make meaningful contributions to the industry. My passion for learning, combined with a strong commitment to personal and professional growth, positions me as a promising candidate for future opportunities in AI and technology-driven fields.
+
+                In summary, my journey is defined by passion, dedication, and an unwavering drive for success. Supported by a solid academic foundation and the encouragement of my family, I am eager to explore new opportunities and am well on my way to making impactful contributions in the evolving field of Artificial Intelligence.</p>
+            </div>
+        </div>     
+    </div>   
+</body>
+</html>
